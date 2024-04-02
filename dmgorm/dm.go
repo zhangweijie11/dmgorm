@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	_ "dm"         // 引入dm数据库驱动包
-	"gorm.io/gorm" // 引入gorm v2包
+	_ "gitlab.example.com/zhangweijie/dmgorm/dm" // 引入dm数据库驱动包
+	"gorm.io/gorm"                               // 引入gorm v2包
 	"gorm.io/gorm/callbacks"
 	"gorm.io/gorm/clause"
 	"gorm.io/gorm/logger"
